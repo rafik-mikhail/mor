@@ -8,3 +8,11 @@ git commit -m "commiting the 3 files"
 git remote add origin https://github.com/rafik-mikhail/mor.git
 git push -u origin master
 touch README.md
+git checkout -b ReadMe
+git add README.md
+git commit -m "commiting README.md"
+git checkout master
+git merge ReadMe
+git add AllMyCommands.txt
+git commit -m "commiting AllMyCommands.txt"
+git push
