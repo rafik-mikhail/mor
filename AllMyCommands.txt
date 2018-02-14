@@ -16,3 +16,8 @@ git merge ReadMe
 git add AllMyCommands.txt
 git commit -m "commiting AllMyCommands.txt"
 git push
+git add AllMyCommands.txt
+git commit -m"forgot to save AllMyCommands file so commiting the saved (final) file" 
+git add AllMyCommands.txt
+git commit -m"forgot to save AllMyCommands file so commiting the saved (final) file(again)"
+git push
