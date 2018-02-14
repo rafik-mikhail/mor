@@ -1,0 +1,10 @@
+git init 
+git add 'first file (About Version Control)'
+git add 'second file (Branches in a Nutshell)'
+git add 'third file (Distributed Git)'
+git reset 'second file (Branches in a Nutshell)'
+git add 'second file (Branches in a Nutshell)'
+git commit -m "commiting the 3 files"
+git remote add origin https://github.com/rafik-mikhail/mor.git
+git push -u origin master
+touch README.md
